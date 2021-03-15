@@ -49,6 +49,8 @@
   .aroma_index{
     position: relative;
     height: 100vh;
+    max-width: 50%;
+    margin: 0 auto;
   }
 
   .image-w .position{
@@ -111,7 +113,7 @@
     <div class="white">
       <img id="mainImgW" src="#" class="">
       <div id="image_w" class="disable image-w ">
-        <img id="w1" name ="{{$lastWhiteWine->sku}}_{{$lastWhiteWine->citrusFruit}}" class="position " src='{{URL::asset('images/aroma/white/citrus_fruit/001_white_'.$lastWhiteWine->citrusFruit.'.png')}}'/>
+        <img id="w1" name ="{{$lastWhiteWine->sku}}_{{$lastWhiteWine->citrusFruit}}" class="position " src='{{URL::asset('images/aroma/white/citrus_fruit/01_white_'.$lastWhiteWine->citrusFruit.'.png')}}'/>
 
 
         <img id="w2" name ="{{$lastWhiteWine->stoneFruit}}" class="position " src='{{URL::asset('images/aroma/white/stone_fruit/002_white_'.$lastWhiteWine->stoneFruit.'.png')}}'/>
